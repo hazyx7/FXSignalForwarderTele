@@ -1,5 +1,5 @@
 ===================================================
-🔁 TELEGRAM SIGNAL FORWARDER BOT
+TELEGRAM SIGNAL FORWARDER BOT
 ===================================================
 
 This bot reads trading signals from specified Telegram groups or channels,
@@ -15,7 +15,7 @@ from Twelve Data, and forwards the cleaned message to another Telegram group.
     pip install telethon aiohttp colorama
 
 ---------------------------------------------------
-⚙️ SETUP INSTRUCTIONS
+SETUP INSTRUCTIONS
 ---------------------------------------------------
 
 1. GET YOUR TELEGRAM API CREDENTIALS
@@ -43,7 +43,7 @@ from Twelve Data, and forwards the cleaned message to another Telegram group.
    - To find your chat IDs, run the helper script below.
 
 ---------------------------------------------------
-🔍 FINDING TELEGRAM CHAT/GROUP IDs
+FINDING TELEGRAM CHAT/GROUP IDs
 ---------------------------------------------------
 1. Open the folder and run:
       chat_id_grabber.py
@@ -54,32 +54,13 @@ from Twelve Data, and forwards the cleaned message to another Telegram group.
 🚀 RUNNING THE BOT
 ---------------------------------------------------
 1. Double-click `run.py`
-2. On first run, it will ask for your phone number or bot token.
-3. It saves your session so next time it runs automatically.
+2. The first time, it will ask for your phone number or bot token.
+3. It also saves your session so next time it runs automatically.
 4. The bot will start listening for signals and forward them
    to the specified group with real-time XAUUSD price.
 
 ---------------------------------------------------
-📦 SIGNAL EXAMPLE
----------------------------------------------------
-Incoming Message:
-    gold buy now @ 3416.50 - 3413
-    sl: 3310
-    tp: 3425
-    tp: 3435
-
-Forwarded Message:
-    📈 XAUUSD Current Price: 3416.50
-
-    Buy XAUUSD: 3416.50 - 3413
-
-    Stop Loss: 3310
-
-    Take Profit 1: 3425
-    Take Profit 2: 3435
-
----------------------------------------------------
-✅ TIPS
+NOTES
 ---------------------------------------------------
 - Edit only the `info.json` file to update settings.
 - Logs are saved in `bot_log.txt`
@@ -87,7 +68,7 @@ Forwarded Message:
 - Don't share your API credentials publicly.
 
 ---------------------------------------------------
-🤝 CREDITS
+CREDITS
 ---------------------------------------------------
 - Built by (https://t.me/hazyx777)
 - Built using Telethon (https://github.com/LonamiWebs/Telethon)
